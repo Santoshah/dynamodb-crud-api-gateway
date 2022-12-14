@@ -1,0 +1,12 @@
+sls deploy
+  GET - https://18z0vilbi5.execute-api.us-east-1.amazonaws.com/dev/post/{postId}
+  POST - https://18z0vilbi5.execute-api.us-east-1.amazonaws.com/dev/post
+  PUT - https://18z0vilbi5.execute-api.us-east-1.amazonaws.com/dev/post/{postId}
+  DELETE - https://18z0vilbi5.execute-api.us-east-1.amazonaws.com/dev/post/{postId}
+  GET - https://18z0vilbi5.execute-api.us-east-1.amazonaws.com/dev/posts
+functions:
+  getPost: get-post (3.5 MB)
+  createPost: create-post (3.5 MB)
+  updatePost: update-post (3.5 MB)
+  deletePost: delete-post (3.5 MB)
+  getAllPosts: get-all-posts (3.5 MB)
